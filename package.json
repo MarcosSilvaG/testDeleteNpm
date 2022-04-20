@@ -1,0 +1,24 @@
+{
+  "name": "testdeletenpm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pokemon.js",
+  "type" : "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules ./node_modules/.bin/jest",
+    "start": "pokemon.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcosSilvaG/testDeleteNpm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcosSilvaG/testDeleteNpm/issues"
+  },
+  "homepage": "https://github.com/MarcosSilvaG/testDeleteNpm#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
